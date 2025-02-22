@@ -1,5 +1,8 @@
 name: nodejs app build
-on: push
+on:
+  push:
+    branches:
+      - master
 jobs:
   lint-job1:
     runs-on: ubuntu-latest
